@@ -6,10 +6,7 @@ import { bindActionCreators } from "redux";
 import { getItems } from "../../actions/authActions";
 
 class LoginPage extends Component {
-  state = {
-    name: "Sign in"
-  }
-
+  
   handleSignIn = () => {
     const { getItems } = this.props;
     getItems();
